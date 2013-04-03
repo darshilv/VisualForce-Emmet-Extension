@@ -4,7 +4,7 @@ For example the following line of code -
 
     ap:pg>ap:pb>ap:pbt[value="{!mAccountList}"  var="x"]>ap:col[value='{!x.}']*5
 
-will create the following Visualforce code
+will create Visualforce code as shown below
 
     <apex:page>
         <apex:pageBlock title="">
