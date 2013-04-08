@@ -18,3 +18,6 @@ will create Visualforce code as shown below
       	</apex:pageBlock>
     </apex:page>
 
+To install this extension please follow the instructions here:
+
+    https://github.com/darshilv/VisualForce-Emmet-Extension/blob/master/Installation_Instructions.md
