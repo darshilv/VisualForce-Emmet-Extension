@@ -17,12 +17,18 @@ will create Visualforce code as shown below
         		</apex:pageBlockTable>
       	</apex:pageBlock>
     </apex:page>
+    
+# Other Examples
+
+    ap:pg[controller="EmmetDemoController"]>ap:pb[title="Account List"]>ap:pbt[value="{!mAccountList}"    var="x"]>ap:col[value="{!x.}"]*5
+    
+    ap:pb[title="{!Account.Name}"]>ap:pbs[columns="2"]>(ap:pbsi>ap:of[value={!Account}])*5
 
 To install this extension please follow the instructions here:
 
     https://github.com/darshilv/VisualForce-Emmet-Extension/blob/master/Installation_Instructions.md
 
-Licence
+# Licence
 
     Copyright (c) 2013, salesforce.com, Inc.
     All rights reserved.
