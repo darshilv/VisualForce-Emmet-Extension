@@ -1,5 +1,8 @@
-This is an Emmet extension that allows the user to create Visualforce page skeleton in addition to HTML, CSS etc.
+# Introduction
 
+This is an Emmet extension that allows the user to write a bunch of Visualforce page code and generate a skeleton in seconds (in addition to HTML, CSS etc.)
+
+#Example 1
 For example the following line of code -
 
     ap:pg>ap:pb>ap:pbt[value="{!mAccountList}"  var="x"]>ap:col[value='{!x.}']*5
@@ -24,9 +27,9 @@ will create Visualforce code as shown below
     
     ap:pb[title="{!Account.Name}"]>ap:pbs[columns="2"]>(ap:pbsi>ap:of[value={!Account}])*5
 
-To install this extension please follow the instructions here:
+# Installation
 
-    https://github.com/darshilv/VisualForce-Emmet-Extension/blob/master/Installation_Instructions.md
+To install this extension for Sublime Text 2.0 please follow the instructions [here](https://github.com/darshilv/VisualForce-Emmet-Extension/blob/master/Installation_Instructions.md)
 
 # Licence
 
